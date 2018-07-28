@@ -23,7 +23,6 @@ declare(strict_types=1);
 namespace multiworld\command\subcommand;
 
 use multiworld\command\MultiWorldCommand;
-use multiworld\generator\ender\EnderGenerator;
 use multiworld\generator\skyblock\SkyBlockGenerator;
 use multiworld\generator\void\VoidGenerator;
 use multiworld\MultiWorld;
@@ -76,7 +75,6 @@ class CreateSubcommand extends MultiWorldCommand implements SubCommand {
                 $generator = Nether::class;
                 $generatorName = "Nether";
                 break;
-            case "ender":
             case "end":
                 $generator = EnderGenerator::class;
                 $generatorName = "End";
