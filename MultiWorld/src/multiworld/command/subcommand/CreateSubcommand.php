@@ -79,7 +79,7 @@ class CreateSubcommand extends MultiWorldCommand implements SubCommand {
                 $generator = EnderGenerator::class;
                 $generatorName = "End";
                 break;
-            case "void":
+            case "air":
                 $generator = VoidGenerator::class;
                 $generatorName = "Void";
                 break;
