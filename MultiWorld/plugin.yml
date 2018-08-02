@@ -20,7 +20,7 @@ permissions:
         default: op
       mw.cmd.teleport:
         description: Permission for /mw teleport
-        default: op
+        default: false
       mw.cmd.list:
         description: Permission for /mw list
         default: op
